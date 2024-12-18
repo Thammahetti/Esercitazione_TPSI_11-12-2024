@@ -1,1 +1,4 @@
-<p>pokeomon-type works!</p>
+<h1>TIPI POKEMON</h1>
+<div *ngFor="let s of poke.pokemon">
+    <a routerLink="/pokemon/{{s.pokemon.name}}">{{s.pokemon.name}}</a>
+</div>

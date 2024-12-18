@@ -4,14 +4,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PokeomonTypeComponent } from './pokeomon-type/pokeomon-type.component';
 import { HoemComponent } from './hoem/hoem.component';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component'; 
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PokeomonTypeComponent,
-    HoemComponent
+    HoemComponent,
+    PokemonDetailsComponent
   ],
   imports: [
     BrowserModule,
